@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SlavikUA1996/goit-react-hw-01-components/static/css/main.7acaea2f.css",
+    "main.js": "/SlavikUA1996/goit-react-hw-01-components/static/js/main.07d3183d.js",
+    "index.html": "/SlavikUA1996/goit-react-hw-01-components/index.html",
+    "main.7acaea2f.css.map": "/SlavikUA1996/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/SlavikUA1996/goit-react-hw-01-components/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
