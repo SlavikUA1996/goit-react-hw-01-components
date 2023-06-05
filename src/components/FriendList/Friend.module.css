@@ -1,0 +1,28 @@
+.friends {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.friends__list {
+  display: flex;
+  flex-direction: column;
+}
+.friends__item {
+  display: flex;
+  align-items: center;
+}
+
+.friends__status {
+  width: 30px;
+  height: 30px;
+}
+
+.avatar {
+  width: 100px;
+}
+.friends__name {
+  font-weight: 700;
+  font-size: 30px;
+}
