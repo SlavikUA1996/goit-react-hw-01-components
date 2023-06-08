@@ -1,4 +1,4 @@
-import css from './Statistics-styles.module.css';
+import css from './Statistics.module.css';
 import propTypes from 'prop-types';
 
 export const Statistics = ({ title, stats }) => {
@@ -24,6 +24,9 @@ export const Statistics = ({ title, stats }) => {
 };
 
 Statistics.propTypes = {
-  label: propTypes.string.isRequired,
-  percentage: propTypes.number.isRequired,
+  stats: propTypes.arrayOf(
+    propTypes.exact({
+      label: propTypes.string.isRequired,
+      percentage: propTypes.number.isRequired,
+    })).isRequired,
 };

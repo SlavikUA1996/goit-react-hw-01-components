@@ -15,8 +15,17 @@
 }
 
 .friends__status {
+  display: block;
   width: 30px;
   height: 30px;
+}
+.true {
+  background-color: green;
+  border-radius: 50%;
+}
+.false {
+  background-color: red;
+  border-radius: 50%;
 }
 
 .avatar {
